@@ -1,1 +1,20 @@
-
+{
+    "id": "com.maya.plugin",
+    "name": "Maya Plugin",
+    "version": "1.0.0",
+    "main": "index.html",
+    "manifestVersion": 4,
+    "host": {
+        "app": "PS",
+        "minVersion": "23.0.0"
+    },
+    "entrypoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "label": {
+                "default": "Maya Plugin"
+            }
+        }
+    ]
+}
